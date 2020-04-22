@@ -1,0 +1,56 @@
+.conditions-box {
+  height: 128px;
+  font-size: 16px;
+}
+
+.cbox-content {
+  width: 100%;
+  height: 100%;
+  padding: 8px 0;
+}
+
+.temperature {
+  display: flex;
+  height: 50%;
+}
+
+.temp-value {
+  font-size: 52px;
+  line-height: 100%;
+}
+
+.temp-unit {
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.active-unit {
+  pointer-events: none;
+}
+
+.inactive-unit {
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.time-and-place {
+  width: 100%;
+  height: 50%;
+}
+
+.cbox-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.condition-detail {
+  height: 25%;
+  cursor: pointer;
+}
+
+.condition-detail > img {
+  width: 24px;
+  height: 24px;
+}
